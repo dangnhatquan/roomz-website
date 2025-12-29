@@ -2,12 +2,12 @@ export const dynamic = 'force-static';
 export const revalidate = false;
 
 import { translateCommon } from '@/utils/helpers/i18n/translateCommon';
-import { Locale } from '@/app/i18n';
+import { TLocale } from '@/app/i18n';
 
 export default async function AboutUsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: TLocale }>;
 }) {
   const { lang } = await params;
   const t = await translateCommon(lang);

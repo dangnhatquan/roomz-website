@@ -3,3 +3,6 @@ bootstrap:
 
 dev:
 	pnpm dev
+
+build:
+	pnpm build

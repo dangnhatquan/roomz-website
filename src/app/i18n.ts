@@ -1,3 +1,5 @@
-export type Locale = 'vi' | 'en';
+export const SUPPORTED_LANGUAGES = ['en', 'vi'] as const;
 
-export const locales: Locale[] = ['en', 'vi'];
+export type TLocale = (typeof SUPPORTED_LANGUAGES)[number];
+
+export const locales: TLocale[] = ['en', 'vi'];

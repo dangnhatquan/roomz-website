@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import Header from '@/components/header';
-import { Locale } from '@/app/i18n';
+import { TLocale } from '@/app/i18n';
 import Footer from '@/components/footer';
 
 export default async function LangLayout({
@@ -9,7 +9,7 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ lang: TLocale }>;
 }) {
   const { lang } = await params;
 

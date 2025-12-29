@@ -1,4 +1,4 @@
-import { Locale } from '@/app/i18n';
+import { TLocale } from '@/app/i18n';
 import { translateNews } from '@/utils/helpers/i18n/translateNews';
 
 export const dynamic = 'force-static';
@@ -7,7 +7,7 @@ export const revalidate = false;
 export default async function NewsPostPage({
   params,
 }: {
-  params: Promise<{ lang: Locale; slug: string }>;
+  params: Promise<{ lang: TLocale; slug: string }>;
 }) {
   const { lang, slug } = await params;
 

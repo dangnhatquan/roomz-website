@@ -1,4 +1,4 @@
-import { Locale, locales } from '@/app/i18n';
+import { TLocale, locales } from '@/app/i18n';
 import { translateFindRoom } from '@/utils/helpers/i18n/translateFindRoom';
 
 export const dynamic = 'force-static';
@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 export default async function FindRoomPage({
   params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: TLocale }>;
 }) {
   const { lang } = await params;
 

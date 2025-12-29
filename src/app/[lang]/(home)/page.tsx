@@ -1,7 +1,7 @@
 export const dynamic = 'force-static';
 export const revalidate = false;
 
-import { Locale, locales } from '@/app/i18n';
+import { TLocale, locales } from '@/app/i18n';
 import { translateHome } from '@/utils/helpers/i18n/translateHome';
 
 export async function generateStaticParams() {
@@ -11,7 +11,7 @@ export async function generateStaticParams() {
 export default async function HomePage({
   params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: TLocale }>;
 }) {
   const { lang } = await params;
 

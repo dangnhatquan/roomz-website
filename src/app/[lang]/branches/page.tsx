@@ -1,13 +1,13 @@
 export const dynamic = 'force-static';
 export const revalidate = false;
 
-import { Locale } from '@/app/i18n';
+import { TLocale } from '@/app/i18n';
 import { translateBranches } from '@/utils/helpers/i18n/translateBranches';
 
 export default async function BranchesPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: TLocale }>;
 }) {
   const { lang } = await params;
   const t = await translateBranches(lang);
