@@ -5,4 +5,4 @@ dev:
 	pnpm dev
 
 build:
-	pnpm build
+	pnpm run build
