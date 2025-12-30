@@ -1,6 +1,7 @@
 export const dynamic = 'force-static';
 export const revalidate = false;
 
+import { ContactSection } from '@/app/[lang]/contact/components/contact-section';
 import { TLocale } from '@/app/i18n';
 import { translateContact } from '@/utils/helpers/i18n/translateContact';
 
@@ -20,17 +21,7 @@ export default async function ContactPage({
         {t('about.description')}
       </p>
 
-      <section className='mt-10 grid gap-6 md:grid-cols-2'>
-        <div>
-          <h2 className='text-xl font-semibold'>{t('about.vision')}</h2>
-          <p>{t('about.vision_desc')}</p>
-        </div>
-
-        <div>
-          <h2 className='text-xl font-semibold'>{t('about.mission')}</h2>
-          <p>{t('about.mission_desc')}</p>
-        </div>
-      </section>
+      <ContactSection />
     </main>
   );
 }

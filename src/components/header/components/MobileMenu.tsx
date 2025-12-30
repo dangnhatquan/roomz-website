@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+
 import NavMenu from './NavMenu';
 
 export default function MobileMenu({ lang }: { lang: 'vi' | 'en' }) {

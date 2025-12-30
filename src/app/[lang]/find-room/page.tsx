@@ -1,4 +1,4 @@
-import { TLocale, locales } from '@/app/i18n';
+import { locales, TLocale } from '@/app/i18n';
 import { translateFindRoom } from '@/utils/helpers/i18n/translateFindRoom';
 
 export const dynamic = 'force-static';

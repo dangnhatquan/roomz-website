@@ -1,7 +1,7 @@
 export const dynamic = 'force-static';
 export const revalidate = false;
 
-import { TLocale, locales } from '@/app/i18n';
+import { locales, TLocale } from '@/app/i18n';
 import { translateHome } from '@/utils/helpers/i18n/translateHome';
 
 export async function generateStaticParams() {

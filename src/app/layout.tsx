@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Metadata } from 'next';
 import * as React from 'react';
 
@@ -6,7 +7,6 @@ import '@/styles/globals.css';
 import '@/styles/colors.css';
 
 import { siteConfig } from '@/constant/config';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 
 // !STARTERCONF Change these default meta
 // !STARTERCONF Look at @/constant/config to change them

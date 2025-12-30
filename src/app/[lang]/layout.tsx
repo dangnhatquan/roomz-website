@@ -1,8 +1,9 @@
 import * as React from 'react';
 
-import Header from '@/components/header';
-import { TLocale } from '@/app/i18n';
 import Footer from '@/components/footer';
+import Header from '@/components/header';
+
+import { TLocale } from '@/app/i18n';
 
 export default async function LangLayout({
   children,

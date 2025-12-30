@@ -1,8 +1,8 @@
 export const dynamic = 'force-static';
 export const revalidate = false;
 
-import { translateCommon } from '@/utils/helpers/i18n/translateCommon';
 import { TLocale } from '@/app/i18n';
+import { translateCommon } from '@/utils/helpers/i18n/translateCommon';
 
 export default async function AboutUsPage({
   params,

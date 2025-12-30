@@ -1,7 +1,8 @@
+import Link from 'next/link';
+
 import LanguageSwitch from '@/components/header/components/LanguageSwitch';
 import MobileMenu from '@/components/header/components/MobileMenu';
 import NavMenu from '@/components/header/components/NavMenu';
-import Link from 'next/link';
 
 type Props = {
   lang: 'vi' | 'en';
