@@ -24,7 +24,7 @@ function SubmitButton() {
     <Button
       type='submit'
       disabled={pending}
-      className='rounded-full bg-orange-500 px-8 hover:bg-orange-600'
+      className='rounded-full bg-green-400 px-8 hover:bg-green-400'
     >
       {pending ? 'Đang gửi...' : '➤ Gửi thông tin'}
     </Button>

@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <h3 className='mb-4 text-lg font-semibold'>
             Trải nghiệm của bạn tại{' '}
-            <span className='text-orange-500'>RoomZ</span> rất quan trọng với
+            <span className='text-green-400'>RoomZ</span> rất quan trọng với
             chúng tôi
           </h3>
           <p className='mb-6 text-sm text-gray-400'>
@@ -18,7 +18,7 @@ export default function Footer() {
           </p>
           <Link
             href='/contact'
-            className='inline-block rounded-full border border-orange-500 px-6 py-2 text-sm text-orange-500 transition hover:bg-orange-500 hover:text-black'
+            className='inline-block rounded-full border border-green-400 px-6 py-2 text-sm text-green-400 transition hover:bg-green-400 hover:text-black'
           >
             Chia sẻ suy nghĩ của bạn
           </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
             {['facebook', 'instagram', 'tiktok', 'linkedin'].map((icon) => (
               <span
                 key={icon}
-                className='flex h-10 w-10 items-center justify-center rounded-full border border-white/30 hover:border-orange-500'
+                className='flex h-10 w-10 items-center justify-center rounded-full border border-white/30 hover:border-green-400'
               >
                 {/* icon placeholder */}
               </span>
@@ -58,7 +58,7 @@ export default function Footer() {
       <div className='mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-16 md:grid-cols-4'>
         {/* COLUMN 1 */}
         <div>
-          <h4 className='mb-4 text-orange-500'>RoomZ</h4>
+          <h4 className='mb-4 text-green-400'>RoomZ</h4>
           <ul className='space-y-2 text-sm text-gray-300'>
             <li>Về chúng tôi</li>
           </ul>
@@ -66,7 +66,7 @@ export default function Footer() {
 
         {/* COLUMN 2 */}
         <div>
-          <h4 className='mb-4 text-orange-500'>ĐẶT PHÒNG</h4>
+          <h4 className='mb-4 text-green-400'>ĐẶT PHÒNG</h4>
           <ul className='space-y-2 text-sm text-gray-300'>
             <li>Đặt phòng</li>
           </ul>
@@ -74,7 +74,7 @@ export default function Footer() {
 
         {/* COLUMN 3 */}
         <div>
-          <h4 className='mb-4 text-orange-500'>CHÍNH SÁCH</h4>
+          <h4 className='mb-4 text-green-400'>CHÍNH SÁCH</h4>
           <ul className='space-y-2 text-sm text-gray-300'>
             <li>Chính sách bảo mật</li>
             <li>Chính sách giao và nhận phòng</li>
@@ -85,7 +85,7 @@ export default function Footer() {
 
         {/* COLUMN 4 */}
         <div>
-          <h4 className='mb-2 text-orange-500'>LIÊN HỆ</h4>
+          <h4 className='mb-2 text-green-400'>LIÊN HỆ</h4>
           <p className='text-sm text-gray-400'>
             Giấy phép Dịch vụ Lưu trú số 256/GCN, ngày cấp 05-07-2023, nơi cấp
             Công An Thành Phố Hồ Chí Minh

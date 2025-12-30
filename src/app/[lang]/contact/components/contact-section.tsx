@@ -11,12 +11,12 @@ export function ContactSection() {
         {/* LEFT INFO */}
         <div>
           <h2 className='text-3xl font-bold'>
-            <span className='text-orange-500'>Liên hệ</span> với MyRoom
+            <span className='text-green-400'>Liên hệ</span> với RoomZ
           </h2>
 
           <p className='mt-4 max-w-md text-muted-foreground'>
             Bạn có câu hỏi, thắc mắc hoặc muốn hợp tác? Hãy gửi thông tin – đội
-            ngũ MyRoom sẽ phản hồi trong thời gian sớm nhất.
+            ngũ RoomZ sẽ phản hồi trong thời gian sớm nhất.
           </p>
 
           <div className='mt-10 space-y-6'>
@@ -34,7 +34,7 @@ export function ContactSection() {
 
             <div>
               <p className='font-semibold text-green-600'>Email</p>
-              <p>info@myroom.vn</p>
+              <p>info@RoomZ.vn</p>
             </div>
 
             <div>
